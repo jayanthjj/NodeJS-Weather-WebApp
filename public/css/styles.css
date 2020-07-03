@@ -1,0 +1,101 @@
+html {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.name:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.navbar {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.ic {
+  background-color: whitesmoke;
+}
+body {
+  background-color: transparent;
+}
+h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-decoration: #090a0f;
+  font-weight: bolder;
+}
+#head {
+  font-size: 40px;
+}
+.move {
+  transform: rotate(90deg);
+  width: 10px;
+  background-color: rgb(131, 30, 21);
+  border-radius: 9px;
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  z-index: 99;
+}
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 320px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+#newbody {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 100%;
+}
+
+.h2 {
+  font-family: "Merriweather", sans-serif;
+}
+.container {
+  display: flex;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 10px 25px 25px 5px rgba(120, 167, 179, 0.425);
+  transition: 0.3s;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px 40px 20px 40px;
+  background-color: rgba(145, 209, 209, 0.822);
+  border-radius: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.data {
+  text-align: left;
+}

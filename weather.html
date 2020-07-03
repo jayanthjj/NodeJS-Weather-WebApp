@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico" />
+    <link
+      rel="icon"
+      href="images/icon.png"
+      type="image/gif"
+      sizes="16x16"
+      class="ic"
+    />
+    <title>What's my Weather?</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/wstyles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navcol"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img
+          src="images/amcharts_weather_icons_1.0.0/animated/rainy-3.svg"
+          alt="icon"
+          width="60px"
+          height="60px"
+        />
+      </a>
+      <a class="navbar-brand" href="/">What's my Weather? </a>
+      <div class="collapse navbar-collapse" id="navcol">
+        <ul class="navbar-nav ml-auto">
+          <li>
+            <a class="nav-link name" href="http://jayanthjj.me/"
+              >Jayanth Jayadevan
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://github.com/jayanthj737"
+              ><img src="images/gith.png" height="45px" width="45px" />
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://www.linkedin.com/in/jayanthjj/"
+              ><img src="images/Linked.png" height="45px" width="45px" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- NAV END -->
+    <div class="text-center" id="newbody">
+      <form class="form-signin" action="/" method="post">
+        <span>
+          <h1 class="main">What's my Weather?</h1>
+          <img
+            class="mb-4"
+            src="images/amcharts_weather_icons_1.0.0/animated/rainy-3.svg"
+            alt="icon"
+            width="200px"
+            height="200px"
+          />
+        </span>
+        <h1 class="h3 mb-3 font-weight-normal">Where are you right now?</h1>
+        <label for="inputEmail" class="sr-only rad">City Name</label>
+        <input
+          type="text"
+          id="cityName"
+          name="cityName"
+          class="form-control"
+          placeholder="City Name"
+          required
+          autofocus
+        />
+        <button class="btn btn-lg btn-primary btn-block" type="submit">
+          Show my Weather Report.
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
+      </form>
+    </div>
+  </body>
+</html>
